@@ -85,7 +85,7 @@ def main():
             all_data.append(heading.split(','))
             data_lines = lines[1:]
         else:
-            data_lines = lines
+            data_lines = lines[1:]
 
         if not data_lines:
             print(f"No more data at page {page}.")
